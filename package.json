@@ -4,7 +4,7 @@
   "description": "Simple notification client for kknotify-server",
   "main": "kknotify-client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "kknotify-client": "node ./kknotify-client.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
     "url": "https://github.com/kkeundotnet/kknotify-client/issues"
   },
   "homepage": "https://github.com/kkeundotnet/kknotify-client#readme",
-  "bin": "./kknotify-client.js",
   "dependencies": {
     "node-notifier": "^5.2.1"
   },
