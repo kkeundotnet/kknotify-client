@@ -21,7 +21,7 @@
   "homepage": "https://github.com/kkeundotnet/kknotify-client#readme",
   "bin": "./kknotify-client.js",
   "dependencies": {
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^5.2.1"
   },
   "engines": {
     "node": ">=8.4"
