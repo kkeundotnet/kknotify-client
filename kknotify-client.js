@@ -6,17 +6,19 @@ const port = 20004;
 const notifier = require('node-notifier');
 const net = require('net');
 const client = new net.Socket();
+const path = require('path');
 
 client.connect(port, host, function(){
     console.log('Connected');
 });
 
 client.on('data', function(data){
-    var msg = String(data).trim();
+    const msg = String(data).trim();
     console.log('Received: ' + msg);
     notifier.notify({
         title: 'kknotify-client',
-        message: msg
+        message: msg,
+	icon: path.join(__dirname, 'kkeun.png')
     });
 });
 
