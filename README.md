@@ -3,6 +3,11 @@ kknotify-client
 
 *Run script and watch youtube!*
 
+Simple notification client for
+[kknotify-server](https://github.com/kkeundotnet/kknotify-server)
+
+******
+
 In the near future, ~~I will change the language~~ (I will not.
 Bother you.), because
 
@@ -13,9 +18,6 @@ Bother you.), because
 so there is no graceful way for me to force closing client's socket
 connections, without running `taskkill /im node.exe /F`.  **Using
 Javascript was a big mistake.**
-
-Simple notification client for
-[kknotify-server](https://github.com/kkeundotnet/kknotify-server)
 
 How to run
 ------
