@@ -3,7 +3,8 @@ kknotify-client
 
 *Run script and watch youtube!*
 
-In the near future, I will change the language because,
+In the near future, ~~I will change the language~~ (I will not.
+Bother you.), because
 
 1.  it doesn't listen `Ctrl+c`, (I don't know why)
 2.  it has no functions for closing socket immediately, (I don't know
