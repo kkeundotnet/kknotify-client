@@ -15,10 +15,6 @@ Bother you.), because
 2.  it has no functions for closing socket immediately, (I don't know
     why)
 
-so there is no graceful way for me to force closing client's socket
-connections, without running `taskkill /im node.exe /F`.  **Using
-Javascript was a big mistake.**
-
 How to run
 ------
 
