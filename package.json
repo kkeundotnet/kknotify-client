@@ -1,0 +1,29 @@
+{
+  "name": "kknotify-client",
+  "version": "0.1.0",
+  "description": "Simple notification client for kknotify-server",
+  "main": "kknotify-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkeundotnet/kknotify-client.git"
+  },
+  "keywords": [
+    "kknotify"
+  ],
+  "author": "kkeundotnet",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kkeundotnet/kknotify-client/issues"
+  },
+  "homepage": "https://github.com/kkeundotnet/kknotify-client#readme",
+  "bin": "./kknotify-client.js",
+  "dependencies": {
+    "node-notifier": "^5.2.1",
+  },
+  "engines": {
+    "node": ">=8.4"
+  }
+}
