@@ -18,7 +18,7 @@ client.on('data', function(data){
     notifier.notify({
         title: 'kknotify-client',
         message: msg,
-	icon: path.join(__dirname, 'kkeun.png')
+        icon: path.join(__dirname, 'kkeun.png')
     });
 });
 
