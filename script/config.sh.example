@@ -1,0 +1,4 @@
+#!/bin/bash
+
+IP=   # kknotify-server IP
+PORT= # kknotify-server port

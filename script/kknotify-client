@@ -1,0 +1,18 @@
+#!/bin/bash
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONFIG=$DIR/config.sh
+if [ -f $CONFIG ]; then
+    source $CONFIG
+else
+    echo "config file not found"
+    exit 1
+fi
+
+netstat -ano | grep "$IP:$PORT" && {
+    echo "kknotify-client is already running";
+    exit 1;
+}
+
+cd $DIR/..
+(set -x; npm run kknotify-client > /dev/null &)
