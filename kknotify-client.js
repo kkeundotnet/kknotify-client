@@ -1,4 +1,4 @@
-const host = 'kkeun.net'
+const host = 'kkeun.net';
 const port = 20004;
 
 // https://gist.github.com/tedmiston/5935757
